@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "oma.synth",
+  "name": "Synth",
+  "version": "1.0.0",
+  "author": "nmlit",
+  "license": "MIT",
+  "description": "Spela SynthwaveRadio.eu med ett klick i Omarchy-baren.",
+  "kinds": ["service", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Synth",
+    "description": "Klick spelar/stoppar strömmen. Röd ikon = spelar, vit = av.",
+    "category": "Media",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
