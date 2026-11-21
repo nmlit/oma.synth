@@ -8,7 +8,7 @@ set -euo pipefail
 URL="${OMA_SYNTH_URL:-https://stream.synthwaveradio.eu/listen/synthwaveradio.eu/radio.mp3}"
 UNIT="oma-synth"
 # Andra oma-radioplugin som stoppas när den här startar (bara en ström åt gången).
-SIBLINGS=(oma-metal)
+SIBLINGS=(oma-metal oma-jul)
 STATE_DIR="${XDG_STATE_HOME:-$HOME/.local/state}/oma.synth"
 PID_FILE="$STATE_DIR/pid"
 NOW_FILE="$STATE_DIR/nowplaying"

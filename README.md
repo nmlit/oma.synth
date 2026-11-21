@@ -88,3 +88,9 @@ python3 tools/make-icons.py keytar.png
 ## Licens
 
 MIT
+
+## oma.jul (1.1.0)
+
+Från version 1.1.0 stoppas även [oma.jul](https://github.com/nmlit/oma.jul)
+(`oma-jul.service`) när oma.synth startar, och tvärtom. Bara en av oma.metal,
+oma.synth och oma.jul spelar alltså åt gången.

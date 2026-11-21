@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "oma.synth",
   "name": "Synth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "nmlit",
   "license": "MIT",
   "description": "Spela SynthwaveRadio.eu med ett klick i Omarchy-baren.",
